@@ -1,0 +1,44 @@
+.table{
+    left: 400px;
+    position: absolute;
+    top: 50px;
+}
+
+#mov-cavalo{
+    position: absolute;
+    left: 70px;
+    top: 10px;
+    animation: mov-cavalo 12s infinite;
+}
+
+ @keyframes mov-cavalo{
+     0%{top: 7px; left: 70px;}
+     5.88%{top: 133px; left: 70px;}
+     11.76%{top: 133px; left: 133px;}
+     17.64%{top: 259px; left: 133px;}
+     23.52%{top: 259px; left: 196px;}
+     29.4%{top: 385px; left: 196px;}
+     35.28%{top: 385px; left: 259px;}
+     41.16%{top: 448px; left: 259px;}
+     47.04%{top: 448px; left: 385px;}
+
+     52.92%{top: 448px; left: 259px;}
+     58.8%{top: 385px; left: 259px;}
+     64.68%{top: 385px; left: 196px;}
+     70.56%{top: 259px; left: 196px;}
+     76.44%{top: 259px; left: 133px;}
+     82.32%{top: 133px; left: 133px;}
+     88.2%{top: 133px; left: 70px;}
+     100%{top: 7px; left: 70px;}
+
+
+
+     
+     
+
+   
+     
+
+
+ }
+
